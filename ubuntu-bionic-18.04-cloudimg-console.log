@@ -657,3 +657,14 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/5Zozw2IAH9N6Gq7p5h6MZd4YqStHXn3VPLU8jbtR
 [  111.169568] cloud-init[1246]: Cloud-init v. 19.3-41-gc4735dd3-0ubuntu1~18.04.1 running 'modules:final' at Sat, 18 Jan 2020 08:54:19 +0000. Up 109.10 seconds.
 [  111.170953] cloud-init[1246]: ci-info: no authorized ssh keys fingerprints found for user ubuntu.
 [  111.171747] cloud-init[1246]: Cloud-init v. 19.3-41-gc4735dd3-0ubuntu1~18.04.1 finished at Sat, 18 Jan 2020 08:54:21 +0000. Datasource DataSourceNoCloud [seed=/dev/sdb][dsmode=net].  Up 111.05 seconds
+[ 4399.952381] e1000 0000:00:03.0 enp0s3: Detected Tx Unit Hang
+[ 4399.952381]   Tx Queue             <0>
+[ 4399.952381]   TDH                  <3c>
+[ 4399.952381]   TDT                  <3d>
+[ 4399.952381]   next_to_use          <3d>
+[ 4399.952381]   next_to_clean        <3c>
+[ 4399.952381] buffer_info[next_to_clean]
+[ 4399.952381]   time_stamp           <1000fa4ec>
+[ 4399.952381]   next_to_watch        <3c>
+[ 4399.952381]   jiffies              <1000fa5f8>
+[ 4399.952381]   next_to_watch.status <0>
